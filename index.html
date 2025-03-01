@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+    <div class="cursor">
+    </div>
+    <h1>VIRAT KOHLI</h1>
+
+    </div>
+<script>
+
+let main = document.querySelector(".main")
+let cursor = document.querySelector(".cursor")
+
+main.addEventListener("mousemove",(e)=>{
+    console.log("x values",e.x)
+    console.log("y values",e.y)
+    cursor.style.left = e.x +"px"
+    cursor.style.top = e.y+"px"
+
+})
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+ <!-- <script src="index.js"></script> --> 
+    <!-- <script src="solution.js"></script>
+</body>
+</html>
